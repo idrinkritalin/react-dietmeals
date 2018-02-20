@@ -8,3 +8,8 @@ The app will feature a customizable calendar for users to track their breakfast,
 * Install the dependencies - `npm install`
 * Start the project with yarn or npm - `npm start` or `yarn start`
 * You will be able to listen the server on http://localhost:3000
+
+## Dependencies and some fancy packages used in this project:
+
+* React - https://reactjs.org
+* Redux - https://redux.js.org
