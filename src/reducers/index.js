@@ -54,10 +54,11 @@ function calendar (state = initialCalendarState, action) {
         }
       }
     case REMOVE_FROM_CALENDAR:
-      return {...state,
-      [day]: {
-        ...state[day],
-        [meal]: null,
+      return {
+        ...state,
+        [day]: {
+          ...state[day],
+          [meal]: null,
       }}
     default:
       return state
